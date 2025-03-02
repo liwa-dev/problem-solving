@@ -8,7 +8,7 @@ public class SomeSums {
         int b = sc.nextInt(); 
         int total = 0;
         //exemple: n=20, a=2, b=5
-        for (int i = 1; i < n; i++) { //i=1; i<20;
+        for (int i = 1; i <= n; i++) { //i=1; i<=20;
             int sum=0;
             int num = i; // num=1
             while (num > 0) { //1>0
